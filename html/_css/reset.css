@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Mont-Heavy";
+    font-weight: normal;
+    font-style: normal;
+    src: url('/_font/Mont-HeavyDEMO.woff');
+}
+@font-face {
+    font-family: "Mont-Extra";
+    font-weight: normal;
+    font-style: normal;
+    src: url('/_font/Mont-ExtraLightDEMO.woff');
+}
+body,html{
+    width:100%;
+    height:100%;
+    margin:0;padding:0;
+    word-break: keep-all;
+    background-color: #F4F2EF;
+}
+html{
+    overflow-x: hidden;
+}
+*{
+    margin:0;
+    padding:0;
+    font-size:15px;
+    line-height: 24px;
+    font-weight:300;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: none;
+}
+i,em{
+    font-style:normal;
+}
+li{
+    list-style:none;
+}
+input,select,textarea,button{
+    box-sizing:border-box;
+}
+
+button{
+    background:none;
+    border:none;
+    cursor:pointer;
+    outline:none;
+}
+
+table{
+    border-spacing:0;
+    border-collapse:collapse;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+@keyframes jelly {
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+  
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+  
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+}
+
+@keyframes showTopText {
+    0% { transform: translate3d(0, 100%, 0); }
+    40%, 60% { transform: translate3d(0, 50%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+    0% { transform: translate3d(0, -100%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}

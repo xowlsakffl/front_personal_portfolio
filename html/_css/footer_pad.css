@@ -1,0 +1,70 @@
+/* footer */
+.footer_wrap{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-color: #333;
+    box-sizing: border-box;
+}
+.footer_wrap .footer_box{
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+.footer_wrap .footer_box .footer_1{
+    padding-top: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.footer_wrap .footer_box .footer_1 .footer_logo{
+    float: left;
+    width: 50%;
+}
+.footer_wrap .footer_box .footer_1 .footer_icon{
+    float: right;
+    text-align: right;
+    width: 50%;
+    margin-top: 35px;
+}
+.footer_wrap .footer_box .footer_1 .footer_icon span{
+    margin-left: 29px;
+}
+.footer_wrap .footer_box .footer_1 .footer_icon span:hover img{
+    animation: jelly 0.5s;
+}
+.footer_wrap .footer_box .footer_2 ul{
+    display: flex;
+    align-items: center;
+}
+.footer_wrap .footer_box .footer_2 ul li{
+    display: flex;
+    align-items: center;
+}
+.footer_wrap .footer_box .footer_2 ul li.line::after{
+    display: inline-block;
+    content:"";
+    height: 14px;
+    width: 1px;
+    background-color: #fff;
+    margin: 0 26px;
+}
+.footer_wrap .footer_box .footer_2 ul li a{
+    font-family: "Mont-Extra";
+    color: #fff;
+    font-size: 20px;
+}
+.footer_wrap .footer_box .footer_2 ul li a:hover{
+    animation: jelly 0.5s;
+}
+.footer_wrap .footer_box .footer_3{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 83px;
+}
+.footer_wrap .footer_box .footer_3 p{
+    color: #fff;
+    font-family: "Mont-Extra";
+    font-size: 14px;
+}
